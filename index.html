@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head>
+            <!-- Required meta tags always come first -->
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+            <!-- Additional CSS must be placed after Bootstrap CSS -->
+            <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/styles.css" />
+            <title>Tanya Shrivastava's Home Page</title>
+        </head>
+
+        <nav class="navbar navbar-expand-sm sticky-top">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="/images/tani-logo-3.png"/>
+            </a>    
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars text-white" aria-hidden="true"></i>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://fewbluedrops.wordpress.com/" target="_blank" rel="noopener">Blog</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/books.html">Books</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="interviewsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Interviews
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="interviewsDropdown">
+                            <a class="dropdown-item" 
+                                href="http://gargipublishers.blogspot.com/2015/09/interview-with-tanya-shrivastava-by.html">Interview by Nainika Gautam</a>
+                            <a class="dropdown-item" 
+                                href="http://harshitasrivastava.blogspot.com/2014/07/be-yourself-and-enjoy-your-existence.html">Interview by Harshita Srivastava</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item social-media-links">
+                        <a href="https://twitter.com/tanyash28" target="_blank" rel="noopener"><span class="fa fa-2x fa-twitter mt-1 mr-2"></span></a>
+                        <a href="https://www.instagram.com/tanya.shrivastava" target="_blank" rel="noopener"><span class="fa fa-2x fa-instagram"></span></a>
+                    </li>
+                    <li class="nav-item social-media-links">
+                        <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#contactAuthorModal">
+                            Contact
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>          
+
+        <div class="modal fade" id="contactAuthorModal" tabindex="-1" role="dialog" aria-labelledby="contactAuthorModalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-white" id="contactAuthorModalTitle">Contact the Author</h5>
+                  <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <p class="modal-text">Want to reach Tanya Shrivastava? Drop us a line here. </p>
+                    <form>
+                        <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                        </div>
+                        <div class="form-row mt-2">
+                            <div class="col">
+                                <label for="comment">Message:</label>
+                                <textarea class="form-control" rows="5" id="comment"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send Message</button>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="container-fluid new-release-container">
+            <div class="row">
+                <div class="col">
+                    <img class="img-fluid mx-auto d-block" src="images/crumpled-voices-4-full.jpg"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="link-group float-right">
+                        <a class="btn btn-dark" role="button"
+                        href="https://www.amazon.in/dp/9384382221/ref=cm_sw_r_fm_apa_i_iX4uEbKS9S4TE" 
+                        target="_blank" rel="noopener">Order on Amazon</a>
+                    <a class="btn btn-dark" role="button"
+                        href="https://www.flipkart.com/strangled-emotions/p/itm0a848bedf1e12?pid=9789384382223&cmpid=product.share.pp" 
+                        target="_blank" rel="noopener">Order on Flipkart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="container-fluid author-bio-container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>About the author</h3>
+                    <p class="author-bio-text">
+                        Though living her Canadian dream, the inspirations and epiphanies for Tanya’s stories are well rooted from her homeland, India: the land of storytelling. 
+                        While at daytime she can be found immersed in her excel sheets, files and meetings; the dusk is solely dedicated to her stories. 
+                        <br> <br>
+                        Tanya started her literary journey with ‘Dear Diary…’ followed by anthologies named ‘Crumpled Voices’,‘Innocence Lost’, ‘Strangled Emotions’ where she was a contributing author. 
+                        Tanya also wrote foreword for an anthology named ‘Drenched Souls’ all under the aegis of her favourite publishing house, Gargi Publishers.
+                        <br><br>
+                        After her MBA from IMT-Nagpur and a brief corporate career in India, Tanya decided to settle down in Toronto in 2018. 
+                        She had developed camaraderie with her pen when she was quite young and since then she has been a very ardent reader and writer. 
+                        Poems have a special place in her collections as she believes that those rhyming couplets have a very exquisite way of expressing emotions. 
+                        Tanya loves to compose her work in Hindi, Urdu as well as English and is currently learning French.
+                        <br><br>
+                        Tanya aspires to be a bestseller someday!
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                <img class="author-img" src="/images/author-image.jpg"/>
+                </div>
+            </div>    
+        </div>
+    
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <p class="text-white footer-link text-center">&copy; 2020-2022 Tanya Shrivastava</p>
+                </div>
+            </div>
+        </footer>
+       
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
